@@ -8,7 +8,7 @@ class Student:
         return len(self.rating_list)
 
     def __str__(self):
-        return print({self.name})
+        return f"{self.name}"
 
 
 def sortt(array):
@@ -28,3 +28,5 @@ diana = Student("Diana", "Tokaruk", [5,3,8])
 studenty = [misha,petro,diana,ivan]
 
 sortt(studenty)
+for i in studenty:
+    print(i)
